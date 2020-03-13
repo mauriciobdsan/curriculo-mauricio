@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html>
+<title>@Mauriciobdsan</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+<style>
+  <body>
+
+body,h1,h2,h3,h4,h5 {font-family: "Raleway", sans-serif}
+.nav{
+  font-family: "Raleway", sans-serif;
+  background-color: gray;
+  list-style-type: none;
+  text-align: center;
+  margin: 0;
+  padding: 0;}
+.nav li {
+  display: inline-block;
+  font-size: 20px;
+  padding: 20px;}
+</style>
+<header class="w3-container w3-dark-grey w3-padding-32 w3-margin-top"></header>
+<body class="w3-light-grey">
+<!-- Sidebar -->
+<div class="w3-sidebar w3-bar-block w3-animate-left" style="display:none;z-index:5" id="mySidebar">
+  <button class="w3-bar-item w3-button w3-large" onclick="w3_close()">Close &times;</button>
+  <a href="https://www.controlid.com.br/" class="w3-bar-item w3-button">CONTROL-ID</a>
+  <a href="#" class="w3-bar-item w3-button">Link 2</a>
+  <a href="#" class="w3-bar-item w3-button">Link 3</a>
+</div>
+
+<!-- Page Content -->
+<div class="w3-overlay w3-animate-opacity" onclick="w3_close()" style="cursor:pointer" id="myOverlay"></div>
+
+<div>
+  <button class="w3-button w3-gray w3-xxlarge" onclick="w3_open()">&#9776;</button>
+  <div class="w3-container">
+  </div>
+</div>
+     
+<script>
+function w3_open() {
+  document.getElementById("mySidebar").style.display = "block";
+  document.getElementById("myOverlay").style.display = "block";
+}
+
+function w3_close() {
+  document.getElementById("mySidebar").style.display = "none";
+  document.getElementById("myOverlay").style.display = "none";
+}
+</script>
+<!-- w3-content defines a container for fixed size centered content,
+and is wrapped around the whole page content, except for the footer in this example -->
+<div class="w3-content" style="max-width:1400px">
+
+<!-- Header -->
+<header class="w3-container w3-center w3-padding-32">
+  <h1><b>HELLO STRANGER</b></h1>
+  <p>Welcome to the my profile. Nice to meet you!<span class="w3-tag">
+  </span></p>
+</header>
+
+<!-- Grid -->
+<div class="w3-row">
+
+<!-- Blog entries -->
+<div class="w3-col l8 s12">
+  <!-- Blog entry -->
+  <div class="w3-card-4 w3-margin w3-white">
+    <img src="img/world.png" alt="Norway" style="width:10%">
+    <div class="w3-container">
+      <h3><b>Mauricio Benites dos Santos</b></h3>
+      <h5>Linkedin, <span class="w3-opacity"><a href="https://www.linkedin.com/in/mauricio-b-3655659a">profile</a></span></h5>
+    </div>
+
+    <div class="w3-container">
+      <p>Hi, my name is Mauricio, 22 years old. I live in São Paulo, Brazil, with my parents. I'm working at a technology company called Control-ID, equipment manufacturers of control access and commercial automation. I work as an customer analyst support all over Brazil.</p>
+      <p>Hola, me llamo Mauricio, 22 años. Vivo con mis padres en São Paulo, Brasil. Estoy trabajando en una empresa de tecnología llamada Control-ID, fabricantes de equipos de control de acceso y automatización comercial. Trabajo como analista de atención al cliente de todo Brasil</p>
+      <div class="w3-row">
+        <div class="w3-col m8 s12">
+          <p><button class="w3-button w3-padding-large w3-white w3-border"><b>READ MORE</b></button></p>
+        </div>
+        <div class="w3-col m4 w3-hide-small">
+          <p><span class="w3-padding-large w3-right"><b>Comments </b> <span class="w3-tag">0</span></span></p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <hr>
+
+  <!-- Blog entry -->
+  <div class="w3-card-4 w3-margin w3-white">
+  <img src="img/logo-controlid-color.jpg" alt="Norway" style="width:20%; height:15%">
+    <div class="w3-container">
+      <h3><b>Experience Professional - Experiencia Profesional</b></h3>
+      <h5>Support and Integration Analyst - (August/2018) - <span class="w3-opacity"><a href="http:www.controlid.com.br/">CONTROL-ID</a></span></h5>
+    </div>
+
+    <div class="w3-container">
+      <p>Currently I work with software and equipment solutions for point control and registration (RHID), security and access control systems (IDSecure), and commercial automation (S@T and non-fiscal printer). I perform customer database analysis using MySQL and SQL. Creation of O.S. for request for exchange and maintenance of products. Telephone and remote service using BRIA, Team Viewer and AnyDesk tools. And support for technicians, distributors and resellers to carry out their projects with the equipments and softwares, making correction and updates.</p>
+      <p>Actualmente trabajo con soluciones de software y equipos para control de punto y registro (RHID), sistemas de control de seguridad y acceso (IDSecure) y automatización comercial (S@T y impresora no tributaria). Hago análisis de bases de datos de clientes usando MySQL y SQL. Creación de O.S. para el intercambio de productos y la solicitud de mantenimiento. Servicio telefónico y remoto con herramientas BRIA, Team Viewer y AnyDesk. Y apoyo a técnicos, distribuidores y revendedores para llevar a cabo sus proyectos con equipos y software, haciendo correcciones y actualizaciones</p>
+        <div class="w3-row">
+        <div class="w3-col m8 s12">
+          <p><button class="w3-button w3-padding-large w3-white w3-border"><b>READ MORE</button></p>
+        </div>
+        <div class="w3-col m4 w3-hide-small">
+          <p><span class="w3-padding-large w3-right"><b>Comments </b> <span class="w3-badge">2</span></span></p>
+        </div>
+      </div>
+    </div>
+  </div>
+<!-- END BLOG ENTRIES -->
+</div>
+
+<!-- Introduction menu -->
+<div class="w3-col l4">
+  <!-- About Card -->
+  <div class="w3-card w3-margin w3-margin-top">
+  <img src="img/balao-pensamento.jpg" style="width:10%">
+    <div class="w3-container w3-white">
+      <h4><b>ABOUT ME</b></h4>
+      <p>I'm exploring the universe of knowledge because life is just a momentary vision of the wonders of this incredible universe, and it is sad that so many wear themselves out dreaming of spiritual fantasies.</p>
+      <p>Estoy explorando el universo del conocimiento porque la vida es sólo una visión momentánea de las maravillas de este universo increíble, y es triste que tantos se desgastan soñando con fantasías espirituales.</p>
+    </div>
+  </div><hr>
+ 
+  <!-- Posts -->
+  <div class="w3-card w3-margin">
+    <div class="w3-container w3-padding">
+      <h4>Technical Skills</h4>
+    </div>
+    <ul class="w3-ul w3-hoverable w3-white">
+      <li class="w3-padding-16">
+        <img src="img/logo-intelbras.jpg" alt="Image" class="w3-left w3-margin-right" style="width:50px">
+        <span class="w3-large">Intelbras</span><br>
+        <span><a href="pdf/redes.pdf"><b>Network Manager</b></a></span>
+      </li>
+      <li class="w3-padding-16">
+        <img src="img/udemy.png" alt="Image" class="w3-left w3-margin-right" style="width:50px">
+        <span class="w3-large">Udemy</span><br>
+        <span><a href="pdf/redes.pdf"><b>Developmet</b></a></span>
+      </li>
+      <li class="w3-padding-16">
+        <img src="img/senac.jpg" alt="Image" class="w3-left w3-margin-right" style="width:50px">
+        <span class="w3-large">SENAC</span><br>
+        <span><a href="pdf/redes.pdf"><b>Information Technology</b></a></span>
+      </li>  
+      <li class="w3-padding-16 w3-hide-medium w3-hide-small">
+        <img src="img/logo-etec.jpg" alt="Image" class="w3-left w3-margin-right" style="width:50px">
+        <span class="w3-large">ETEC</span><br>
+        <span><a href="pdf/etec-administracao.pdf"><b>Business Administration</b></a></span>
+      </li>
+      <li class="w3-padding-16 w3-hide-medium w3-hide-small">
+        <img src="img/microcamp.png" alt="Image" class="w3-left w3-margin-right" style="width:50px">
+        <span class="w3-large">Microcamp</span><br>
+        <span><a href="pdf/microcamp-hardware.pdf"><b>Hardware and Software Maintenance</b></a></span>  
+    </ul>
+  </div>
+  <hr>
+ 
+  <!-- Labels / tags -->
+  <div class="w3-card w3-margin">
+    <div class="w3-container w3-padding">
+      <h4>Tags</h4>
+    </div>
+    <div class="w3-container w3-white">
+    <p><span class="w3-tag w3-black w3-margin-bottom">Travel</span> <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">New York</span> <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">London</span>
+      <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">IKEA</span> <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">NORWAY</span> <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">DIY</span>
+      <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">Ideas</span> <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">Baby</span> <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">Family</span>
+      <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">News</span> <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">Clothing</span> <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">Shopping</span>
+      <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">Sports</span> <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">Games</span>
+    </p>
+    </div>
+  </div>
+ 
+<!-- END Introduction Menu -->
+</div>
+
+<!-- END GRID -->
+</div><br>
+
+<!-- END w3-content -->
+</div>
+
+<!-- Footer -->
+<footer class="w3-container w3-dark-grey w3-padding-32 w3-margin-top">
+</footer>
+
+<ul class="nav">
+  <li><a href="https://www.google.com.br/maps/place/R.+Jonas+Ranter,+86+-+Conj.+Hab.+Barreira+Grande,+S%C3%A3o+Paulo+-+SP,+03907-040/@-23.5858552,-46.5087229,17z/data=!3m1!4b1!4m5!3m4!1s0x94ce679b4ad2690f:0xdcfa15d88c497a39!8m2!3d-23.585855!4d-46.506534?shorturl=1">Home</a></li>
+  <li><a href=”tel:+5511997570558″>Contact</a></li>
+</ul>
+
+</body>
+</html>
